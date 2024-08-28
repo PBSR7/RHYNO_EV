@@ -1,0 +1,17 @@
+/* Product card styles */
+.product-card {
+    padding: 2rem;
+  }
+  .product-list {
+    display: flex;
+    gap: 1rem;
+  }
+  .product-item {
+    flex: 1;
+    text-align: center;
+  }
+  .product-item img {
+    width: 100%;
+    max-width: 300px;
+  }
+  
