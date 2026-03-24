@@ -1,17 +1,26 @@
-/* Product card styles */
 .product-card {
-    padding: 2rem;
-  }
-  .product-list {
-    display: flex;
-    gap: 1rem;
-  }
-  .product-item {
-    flex: 1;
+    background-color: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 8px;
+    padding: 20px;
     text-align: center;
   }
-  .product-item img {
-    width: 100%;
-    max-width: 300px;
+  
+  .product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product-card h2 {
+    margin: 10px 0;
+  }
+  
+  .product-card button {
+    background-color: #F9ED32;
+    border: none;
+    color: #202020;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
   }
   

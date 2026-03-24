@@ -1,27 +1,31 @@
-/* Footer styles */
 .footer {
-    background: #2C2A2A;
-    color: #fff;
-    padding: 1rem;
+    background-color: #2C2A2A;
+    color: #FFFFFF;
+    padding: 20px 0;
   }
+  
   .footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+  
   .footer ul {
     list-style: none;
-    padding: 0;
+    display: flex;
   }
-  .footer ul li {
-    display: inline;
-    margin: 0 1rem;
+  
+  .footer li {
+    margin-left: 20px;
   }
+  
   .footer a {
-    color: #fff;
+    color: #FFFFFF;
     text-decoration: none;
   }
-  .social-icons a {
-    margin-left: 1rem;
+  
+  .social-icons img {
+    width: 20px;
+    margin-left: 10px;
   }
   
