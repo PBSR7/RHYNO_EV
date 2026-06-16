@@ -1,0 +1,18 @@
+.carousel {
+  background-color: #f7f7f7;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 0 auto 48px;
+  max-width: 1100px;
+  padding: 24px 20px;
+}
+
+.carousel p {
+  background-color: #ffffff;
+  border: 1px solid #ededed;
+  border-radius: 8px;
+  margin: 0;
+  padding: 18px;
+  text-align: center;
+}
